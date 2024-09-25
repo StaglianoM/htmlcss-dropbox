@@ -1,0 +1,195 @@
+:root {
+    --background-color: var(--background-color)
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    font-size: 15px;
+}
+
+/* buttons */
+
+.button-login {
+    padding: 5px 8px;
+    background-color: blue;
+    color: white;
+}
+
+/* bottone prova gratuita */
+.cta-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+/* spazio tra i due bottoni */
+
+.margin-button {
+    margin-right: 30px;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.navbar-left a,
+.navbar-right a {
+    text-decoration: none;
+    /* Rimossa la sottolineatura */
+    padding: 10px;
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* centrato il 1°box */
+.container {
+    display: flex;
+    justify-content: center
+}
+
+.row {
+    max-width: 900px
+}
+
+/* color box */
+.main-content {
+    padding: 50px;
+    background-color: #e6f0ff;
+}
+
+/* Title */
+.title {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+/* testo finalmente etc */
+.left-column p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* box Img jumbo */
+.left-column {
+    display: flex;
+}
+
+.jumbo {
+    border-radius: 25px;
+    width: 100%;
+}
+
+/* Colonna 1°box */
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* margine tra bottoni e h1*/
+
+.text-button {
+    margin-bottom: 15px;
+}
+
+/* row gap e flex */
+.row-business {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* spazio tra le 3 tabelle */
+.labels {
+    display: flex;
+    justify-content: space-between;
+}
+
+    /* Spazio tra le colonne */
+.pricing-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+   /* Larghezza delle colonne  */
+.pricing-card {
+    background-color: white;
+    border: 1px solid #575757;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* bordo tabella iniziale */
+.border-card {
+    border-bottom: black 1px solid;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+/* card tabelle */
+
+.pricing-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.pricing-card ul li {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+/* acquista ora */
+.purchase-link {
+    color: #007bff;
+    font-size: 14px;
+}
+
+
+.text-label {
+    padding: 20px;
+}
