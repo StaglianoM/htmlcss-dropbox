@@ -39,7 +39,6 @@ a {
 }
 
 
-
 /* spazio tra i due bottoni */
 
 .margin-button {
@@ -140,14 +139,14 @@ a {
     justify-content: space-between;
 }
 
-    /* Spazio tra le colonne */
+/* Spazio tra le colonne */
 .pricing-section {
     display: flex;
     justify-content: center;
     padding: 50px;
 }
 
-   /* Larghezza delle colonne  */
+/* Larghezza delle colonne  */
 .pricing-card {
     background-color: white;
     border: 1px solid #575757;
