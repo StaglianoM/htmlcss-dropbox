@@ -6,26 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
     <link rel="stylesheet" href="./style.css">
+
 </head>
 
-<header class="main-header">
-    <nav class="navbar">
-        <div class="navbar-left">
-            <a class="logo" href="--"> <img src="./img/logo-small.png" alt="logo">
-            </a>
-            <a href="#">Perchè Dropbox</a>
-            <a href="#">Funzioni</a>
-            <a href="#">Piani e prezzi</a>
-        </div>
-        <div class="navbar-right">
-            <a href="#">Supporto</a>
-            <a href="#">Contatta l'ufficio vendite</a>
-            <a href="#">Accedi</a>
-            <div> <button class="button-login">Inizia</button> </div>
-        </div>
-    </nav>
-</header>
 <body>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a class="logo" href="--"> <img src="./img/logo-small.png" alt="logo">
+                </a>
+                <a href="#">Perchè Dropbox</a>
+                <a href="#">Funzioni</a>
+                <a href="#">Piani e prezzi</a>
+            </div>
+            <div class="navbar-right">
+                <a href="#">Supporto</a>
+                <a href="#">Contatta l'ufficio vendite</a>
+                <a href="#">Accedi</a>
+                <div> <button class="button-login">Inizia</button> </div>
+            </div>
+        </nav>
+    </header>
+
     <div class="main-content">
         <div class="container">
             <div class="row">
@@ -43,7 +45,7 @@
                         <a>Annulla in qualsiasi momento</a>
                     </div>
                     <div>
-                        <img class="jumbo" src="/img/jumbo.png" alt="jumbo">
+                        <img class="jumbo" src="./img/jumbo.png" alt="jumbo">
                     </div>
                 </div>
             </div>
@@ -70,17 +72,49 @@
                     </div>
                     <div class="text-label">
                         <h3>Professional</h3>
-                        <p class="price">€ 12.00 <span>/mese</span></p>
-                        <ul>
-                            <li>1 utente</li>
-                            <li>5 TB di spazio di archiviazione sicuro</li>
-                            <li>Funzioni di produttività premium</li>
-                        </ul>
+                        <p><strong>€ 12.00</strong></p>
+                        <p>/mese</p>
+                        <div>
+                            <ul>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                        viewBox="0 0 448 512">
+                                        <path
+                                            d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z" />
+                                    </svg>
+                                    1 utente
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                        viewBox="0 0 512 512">
+                                        <path
+                                            d="M64 480H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H288c-10.1 0-19.6-4.7-25.6-12.8L243.2 57.6C231.1 41.5 212.1 32 192 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64z" />
+                                    </svg>
+                                    5 TB di spazio di archiviazione sicuro
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                        viewBox="0 0 512 512">
+                                        <path
+                                            d="M307 34.8c-11.5 5.1-19 16.6-19 29.2l0 64-112 0C78.8 128 0 206.8 0 304C0 417.3 81.5 467.9 100.2 478.1c2.5 1.4 5.3 1.9 8.1 1.9c10.9 0 19.7-8.9 19.7-19.7c0-7.5-4.3-14.4-9.8-19.5C108.8 431.9 96 414.4 96 384c0-53 43-96 96-96l96 0 0 64c0 12.6 7.4 24.1 19 29.2s25 3 34.4-5.4l160-144c6.7-6.1 10.6-14.7 10.6-23.8s-3.8-17.7-10.6-23.8l-160-144c-9.4-8.5-22.9-10.6-34.4-5.4z" />
+                                    </svg>
+                                    Funzioni di produttività premium e condivisione file semplice e sicura
+                                </li>
+                            </ul>
+                        </div>
                         <button class="cta-button">Prova gratis per 30 giorni</button>
                         <p>
                             <span>oppure</span>
                             <a href="#" class="purchase-link">acquista ora</a>
                         </p>
+                        <ul>
+                            <div class="border_50"></div>
+                            <li>
+                                <h4>Punti Salienti del piano</h4>
+                            </li>
+                            <li><strong class="check">&check;</strong>Invia file fino a 100 GB con Dropbox Transfert</li>
+                            <li><strong class="check">&check;</strong>Cartelle offline su dispositivi mobili</li>
+                        </ul>
                     </div>
                 </div>
 
@@ -89,18 +123,52 @@
                         <h4>Team</h4>
                     </div>
                     <div class="text-label">
+
                         <h3>Advanced</h3>
-                        <p class="price">€ 18.00 <span>/utente/mese</span></p>
+                        <p>
+                            <strong>€ 18.00</strong>
+                        </p>
+                        <p>/utente/mese</p>
+                    <div>
                         <ul>
-                            <li>3 o più utenti</li>
-                            <li>Tutto lo spazio di cui ha bisogno il tuo team</li>
-                            <li>Sofisticate funzioni di controllo</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 640 512">
+                                    <path
+                                        d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192l42.7 0c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0L21.3 320C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7l42.7 0C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3l-213.3 0zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352l117.3 0C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7l-330.7 0c-14.7 0-26.7-11.9-26.7-26.7z" />
+                                </svg>
+
+                                3 o più utenti</li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 512 512">
+                                    <path
+                                        d="M64 480H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H288c-10.1 0-19.6-4.7-25.6-12.8L243.2 57.6C231.1 41.5 212.1 32 192 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64z" />
+                                </svg>
+                                Tutto lo spazio di cui ha bisogno il tuo team
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 512 512">
+                                    <path
+                                        d="M307 34.8c-11.5 5.1-19 16.6-19 29.2l0 64-112 0C78.8 128 0 206.8 0 304C0 417.3 81.5 467.9 100.2 478.1c2.5 1.4 5.3 1.9 8.1 1.9c10.9 0 19.7-8.9 19.7-19.7c0-7.5-4.3-14.4-9.8-19.5C108.8 431.9 96 414.4 96 384c0-53 43-96 96-96l96 0 0 64c0 12.6 7.4 24.1 19 29.2s25 3 34.4-5.4l160-144c6.7-6.1 10.6-14.7 10.6-23.8s-3.8-17.7-10.6-23.8l-160-144c-9.4-8.5-22.9-10.6-34.4-5.4z" />
+                                </svg>
+                                Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
+                            </li>
                         </ul>
+                    </div>
                         <button class="cta-button">Prova gratis per 30 giorni</button>
                         <p>
                             <span>oppure</span>
                             <a href="#" class="purchase-link">acquista ora</a>
                         </p>
+                        <div class="border_50"></div>
+                        <ul>
+                            <li>
+                                <h4>Punti Salienti del piano</h4>
+                            </li>
+                            <li><strong class="check">&check;</strong>Nessun limite di spazio per i file</li>
+                            <li><strong class="check">&check;</strong>Cartelle offline su dispositivi mobili</li>
+                            <li><strong class="check">&check;</strong>Risparmio del 50% rispetto alle iscrizioni singole</li>
+                            <li><strong class="check">&check;</strong>Possibilità di inserire nuovi membri del team</li>
+                            <li><strong class="check">&check;</strong>Gestione dei permessi in base ai ruoli</li>
+                        </ul>
                     </div>
                 </div>
 
@@ -109,18 +177,54 @@
                         <h4>Azienda</h4>
                     </div>
                     <div class="text-label">
-                        <h3>Enterprise</h3>
-                        <p><strong>Contattaci</strong></p>
                         <ul>
-                            <li>10 o più utenti</li>
-                            <li>Soluzioni personalizzabili per la tua azienda</li>
-                            <li>Assistenza personalizzata</li>
+                            <li>
+                                <h3>Enterprise</h3>
+                            </li>
+                            <li>
+                                <p>
+                                    <strong>Contattaci</strong>
+                                </p>
+                            </li>
+                            <li>
+                                <div class="border"></div>
+                                
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 640 512">
+                                    <path
+                                        d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192l42.7 0c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0L21.3 320C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7l42.7 0C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3l-213.3 0zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352l117.3 0C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7l-330.7 0c-14.7 0-26.7-11.9-26.7-26.7z" />
+                                </svg>
+                                10 o più utenti
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 512 512">
+                                    <path
+                                        d="M64 480H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H288c-10.1 0-19.6-4.7-25.6-12.8L243.2 57.6C231.1 41.5 212.1 32 192 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64z" />
+                                </svg>
+                                Soluzioni personalizzabili per la tua azienda
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 512 512">
+                                    <path
+                                        d="M307 34.8c-11.5 5.1-19 16.6-19 29.2l0 64-112 0C78.8 128 0 206.8 0 304C0 417.3 81.5 467.9 100.2 478.1c2.5 1.4 5.3 1.9 8.1 1.9c10.9 0 19.7-8.9 19.7-19.7c0-7.5-4.3-14.4-9.8-19.5C108.8 431.9 96 414.4 96 384c0-53 43-96 96-96l96 0 0 64c0 12.6 7.4 24.1 19 29.2s25 3 34.4-5.4l160-144c6.7-6.1 10.6-14.7 10.6-23.8s-3.8-17.7-10.6-23.8l-160-144c-9.4-8.5-22.9-10.6-34.4-5.4z" />
+                                </svg>
+                                Assistenza personalizzata
+                            </li>
                         </ul>
                         <button class="cta-button">Contattaci</button>
                         <p>
                             <span>oppure</span>
                             <a href="#" class="purchase-link">acquista ora</a>
                         </p>
+                        <div class="border_50"></div>
+                        <ul>
+                            <li>
+                                <h4>Punti Salienti del piano</h4>
+                            </li>
+                            <li><strong class="check">&check;</strong>Cartelle offline su dispositivi mobili</li>
+                            <li><strong class="check">&check;</strong>Servizio assistenza 24/h</li>
+                            <li><strong class="check">&check;</strong>Possibilità di personalizzazione totale</li>
+                        </ul>
                     </div>
                 </div>
             </div>

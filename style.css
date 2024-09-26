@@ -1,5 +1,5 @@
 :root {
-    --background-color: var(--background-color)
+    --background-color: blue;
 }
 
 
@@ -32,6 +32,7 @@ a {
 .cta-button {
     background-color: #007bff;
     color: white;
+    width: 100%;
     border: none;
     padding: 15px;
     font-size: 15px;
@@ -171,11 +172,7 @@ a {
     margin-bottom: 10px;
 }
 
-.price {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
+
 
 .pricing-card ul li {
     margin-bottom: 15px;
@@ -191,4 +188,19 @@ a {
 
 .text-label {
     padding: 20px;
+}
+
+.border {
+    border-bottom: black 1px solid;
+    width: 10px;
+}
+
+.border_50 {
+    border-bottom: rgb(117, 117, 117) 1px solid;
+    width: 40px;
+    margin: 30px;
+}
+
+.check {
+    color: blue;
 }
