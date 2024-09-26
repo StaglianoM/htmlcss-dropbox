@@ -32,11 +32,10 @@ a {
 .cta-button {
     background-color: #007bff;
     color: white;
-    width: 100%;
     border: none;
-    padding: 15px;
     font-size: 15px;
-    margin-bottom: 15px;
+    width: 240px;
+    height: 40px;
 }
 
 
@@ -145,12 +144,13 @@ a {
     display: flex;
     justify-content: center;
     padding: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 /* Larghezza delle colonne  */
 .pricing-card {
-    background-color: white;
-    border: 1px solid #575757;
+    border: 1px solid #cac9c9;
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -203,4 +203,47 @@ a {
 
 .check {
     color: blue;
+}
+
+
+/* ultima tabella */
+
+.team-label {
+    border: 1px solid #cac9c9;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-right {
+    display: flex;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.enterprise-title {
+    padding-bottom: 16px;
+}
+
+.enterprise-subtitle {
+    padding-top: 16px;
+}
+
+.contact-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 15px;
+    width: 240px;
+    height: 40px;
 }
