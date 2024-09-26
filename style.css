@@ -247,3 +247,43 @@ a {
     width: 240px;
     height: 40px;
 }
+
+
+/* img sx */
+
+.container_img {
+    width: 900px; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .image-left {
+    float: left;
+    width: 50%; 
+  }
+  
+  .image-left img {
+    width: 100%; 
+  }
+  
+/* text dx */
+
+  .text-right {
+    float: right;
+    width: 40%; 
+  }
+  
+  .text-right p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  .text-right button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: white;
+  }
+
