@@ -176,7 +176,6 @@ a {
 
 .pricing-card ul li {
     margin-bottom: 15px;
-    margin-left: 15px;
 }
 
 /* acquista ora */
@@ -198,7 +197,7 @@ a {
 .border_50 {
     border-bottom: rgb(117, 117, 117) 1px solid;
     width: 40px;
-    margin: 30px;
+    margin: 30px 0;
 }
 
 .check {
@@ -315,3 +314,19 @@ padding: 15px 0px 30px 0px;
     width: 950px; 
     margin: 0 auto; 
 }
+
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.list-feature {
+    display: flex;
+}
+.space_user {
+    margin-bottom: 35px;
+}
+
